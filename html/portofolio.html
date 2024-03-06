@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><title>Portofolio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <style>
+        body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+        .w3-row-padding img {margin-bottom: 12px}
+        .bgimg {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-image: url('../images/personal\ image.jpg ');
+          min-height: 100%;
+        }
+        </style>
+        </head>
+
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%">
+    <div class="bgimg"></div>
+  </nav>
+  
+  
+  <nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display: none; padding-top: 150px; right: 0px; z-index: 2; width: 60%;" id="mySidebar">
+    <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+      <i class="fa fa-remove"></i>
+    </a>
+    <div class="w3-bar-block w3-center">
+      <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Home</a>
+      <a href="#portfolio" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Portfolio</a>
+      <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+    </div>
+  </nav>
+  
+ 
+  <div class="w3-main w3-padding-large" style="margin-left:40%">
+  
+    
+    <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+  
+   
+    <header class="w3-container w3-center" style="padding:128px 16px" id="home">
+      <h1 class="w3-jumbo"><b>Mohammad Hisham</b></h1>
+      <p>Web developer.</p>
+      
+      <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+        <i class="fa fa-download"></i> Download CV
+      </button>
+    </header>
+  
+    
+    <div class="w3-padding-32 w3-content" id="portfolio">
+      <h2 class="w3-text-grey">Education:</h2>
+      <hr class="w3-opacity">
+  
+      
+      <div class="w3-row-padding" style="margin:0 -16px">
+        <div class="w3-half">
+          <li style="font-size: 20px; font-weight: bolder;">Misr International University</li>
+          <h1 style="font-size: 20px;">Junior at Misr International University</h1> 
+          <h1 style="font-size: 20px;">Web developer</h1> 
+        </div>
+  
+        
+
+      </div>
+    
+    </div>
+  
+    <!-- About Section -->
+    <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+      <h2 style="text-align: center;">About Me</h2>
+      <hr class="w3-opacity">
+      <p> I'm Mohammad Hisham, a dedicated web developer driven by a passion for crafting exceptional online experiences. With expertise in HTML, CSS, JavaScript, and a range of other technologies, I specialize in seamlessly blending form and function to create captivating websites and web applications. From responsive layouts to optimized performance, I thrive on pushing the boundaries of web development. With a keen eye for design and a commitment to collaboration, I work closely with clients and colleagues to bring visions to life.
+      </p>
+      <h3 class="w3-padding-16">My Skills</h3>
+      <p class="w3-wide">Back-end</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:95%">95%</div>
+      </div>
+      <p class="w3-wide">Front-end</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:85%">85%</div>
+      </div>
+      <p class="w3-wide">Problem-solving</p>
+      <div class="w3-light-grey">
+        <div class="w3-container w3-center w3-padding-small w3-dark-grey" style="width:80%">80%</div>
+      </div><br>
+  
+      <div class="w3-row w3-center w3-dark-grey w3-padding-16 w3-section">
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">16+</span><br>
+          Different Languages and Frameworks
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">9+</span><br>
+          Teams worked with
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">8+</span><br>
+          Projects Completed
+        </div>
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">7+</span><br>
+          Meetings
+        </div>
+      </div>
+  
+    
+  
+      <!-- Testimonials -->
+      <h3 class="w3-padding-24">My experience</h3>
+      <li style="font-size: 20px; font-weight: bolder;">E-learning website 2023-2024</li>
+      <p>Introducing my e-learning platform, meticulously crafted with HTML, CSS, and JavaScript, backed by the power of Node.js and MongoDB within a robust MVC architecture. Seamlessly blending intuitive design with dynamic functionality, our platform offers a personalized learning experience like no other. From interactive courses to real-time progress tracking, every element is meticulously designed to engage and empower learners. With Node.js powering our backend and MongoDB ensuring seamless data management, our platform delivers unparalleled performance and scalability.</p><br>
+     
+      <li style="font-size: 20px; font-weight: bolder;">E-commerce website 2022-2023</li>
+      <p>Presenting our state-of-the-art e-commerce solution, built on a foundation of HTML, CSS, and JavaScript, with the dynamic capabilities of Node.js and MongoDB, all orchestrated within a robust MVC architecture. Our platform redefines the online shopping experience, seamlessly integrating sleek design with powerful functionality. From intuitive product browsing to secure transactions, every aspect is meticulously crafted to delight both shoppers and merchants alike. With Node.js driving the backend and MongoDB ensuring seamless data management, our e-commerce platform delivers unparalleled performance and scalability.</p><br>
+      
+      <li style="font-size: 20px; font-weight: bolder;">OOP football application 2021-2022 </li>
+      <p>innovative football application, meticulously designed using Java and JavaFX, harnessing the power of Object-Oriented Programming (OOP) principles. This dynamic platform offers football enthusiasts a comprehensive suite of features, from real-time match updates to player statistics and team management tools. With an intuitive user interface built on JavaFX, navigating through fixtures, leagues, and player profiles is a breeze. Our project embodies the essence of OOP, with modular code structures and reusable components ensuring scalability and maintainability.</p><br>
+      
+      <!-- Grid for pricing tables -->
+      
+      
+    <!-- End About Section -->
+    </div>
+  
+    <!-- Contact Section -->
+    <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+      <h2>Contact Me</h2>
+      <hr class="w3-opacity">
+  
+      <div class="w3-section">
+        <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> New cairo, Egypt</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +20 01207127655</p>
+        <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: mohammadhesham65@gmail.com</p>
+      </div>
+      
+      <!-- Image of location/map -->
+      <img src="../images/location.png"  style="width:100%;margin:32px 0">
+     
+      <p style="text-align: center;">Lets get in touch soon!</p>
+      
+    <!-- End Contact Section -->
+    </div>  
+    
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+      <i class="fa fa-facebook-official w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+      <i class="fa fa-snapchat w3-hover-opacity"></i>
+      <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+      <i class="fa fa-twitter w3-hover-opacity"></i>
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+      <p class="w3-medium">GitHub link: <a href="https://github.com/MohammadHishamm" target="_blank" class="w3-hover-text-green">My GitHub</a></p>
+    <!-- End footer -->
+    </footer>
+    
+  
+  </div>
+  
+  <script src="../js/script.js"></script>
+  
+  
+  </body>
+</html>
